@@ -1,0 +1,13 @@
+## Visual Studio ignore list
+.vs/
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## OS-specific files
+.DS_Store
+Thumbs.db
