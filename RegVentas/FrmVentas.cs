@@ -282,7 +282,7 @@ namespace RegVentas
                         // Insertar detalle
                         string queryDetalle = "INSERT INTO DetalleVenta (ID_Venta, ID_Producto, Cantidad, PrecioUnitario) " +
                                               "VALUES (@ID_Venta, @ID_Producto, @Cantidad, @PrecioUnitario)";
-                        using (MySqlCommand cmdD = new SqlCommand(queryDetalle, conn, trans))
+                        using (MySqlCommand cmdD = new MySqlCommand(queryDetalle, conn, trans))
                         {
                             cmdD.Parameters.AddWithValue("@ID_Venta", idVenta);
                             cmdD.Parameters.AddWithValue("@ID_Producto", idProd);
