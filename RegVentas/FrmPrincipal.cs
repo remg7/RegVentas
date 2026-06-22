@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+// Sincronización exitosa - Probando Git con Antigravity
 
 namespace RegVentas
 {
